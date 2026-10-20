@@ -32,6 +32,7 @@ jobs:
         with:
           name: resultados-enjambre
           path: |
+             memoria.jsonl
             *.json
             resultados/
           if-no-files-found: warn

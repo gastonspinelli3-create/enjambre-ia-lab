@@ -22,7 +22,9 @@ jobs:
           python-version: '3.11'
 
       - name: Ejecutar enjambre
-        run: python enjambre.py
+        run: |
+          echo "Investigar oportunidades de infraestructura para centros de datos" | python enjambre.py
+          
 
       - name: Guardar resultados
         if: always()
